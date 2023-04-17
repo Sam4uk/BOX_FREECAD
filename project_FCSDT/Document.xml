@@ -23,13 +23,13 @@
             <String value=""/>
         </Property>
         <Property name="Label" type="App::PropertyString" status="1">
-            <String value="Project"/>
+            <String value="project"/>
         </Property>
         <Property name="LastModifiedBy" type="App::PropertyString">
             <String value=""/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-            <String value="2023-04-16T19:35:42Z"/>
+            <String value="2023-04-17T06:57:52Z"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -37,11 +37,11 @@
         <Property name="LicenseURL" type="App::PropertyString" status="1">
             <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
         </Property>
-        <Property name="Material" type="App::PropertyMap">
+        <Property name="Material" type="App::PropertyMap" status="1">
             <Map count="0">
             </Map>
         </Property>
-        <Property name="Meta" type="App::PropertyMap">
+        <Property name="Meta" type="App::PropertyMap" status="1">
             <Map count="0">
             </Map>
         </Property>
@@ -55,8 +55,199 @@
             <Uuid value="c2eb370a-8e34-4222-9249-afa3679bb1fd"/>
         </Property>
     </Properties>
-    <Objects Count="0" Dependencies="1">
+    <Objects Count="2" Dependencies="1">
+        <ObjectDeps Name="Spreadsheet" Count="0"/>
+        <ObjectDeps Name="Sketch" Count="2">
+            <Dep Name="Spreadsheet"/>
+            <Dep Name="Spreadsheet"/>
+        </ObjectDeps>
+        <Object type="Spreadsheet::Sheet" name="Spreadsheet" id="1" />
+        <Object type="Sketcher::SketchObject" name="Sketch" id="2" />
     </Objects>
-    <ObjectData Count="0">
+    <ObjectData Count="2">
+        <Object name="Spreadsheet">
+            <Properties Count="7" TransientCount="0">
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Spreadsheet"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="cells" type="Spreadsheet::PropertySheet" status="67108864">
+                    <Cells Count="336" xlink="1">
+                        <XLinks count="0">
+                        </XLinks>
+<Cell address="A1" content="#" />	    <Cell address="B1" content="X" 			alias="PE0X" />	<Cell address="C1" content="Y" 	/>	                    <Cell address="D1" content="D" 	 />	                    <Cell address="E1" content="Name" />
+<Cell address="A2" content="1)" />	    <Cell address="B2" content="011.430" 	alias="PE0X" />	<Cell address="C2" content="033.147" 	alias="PE0Y" />	<Cell address="D2" content="3.000" 	    alias="PE0D" />	<Cell address="E2" content="PE0" />
+<Cell address="A3" content="2)" />	    <Cell address="B3" content="-001.270" 	alias="PE1X" />	<Cell address="C3" content="030.353" 	alias="PE1Y" />	<Cell address="D3" content="3.000" 	    alias="PE1D" />	<Cell address="E3" content="PE1" />
+<Cell address="A4" content="3)" />	    <Cell address="B4" content="-026.289" 	alias="PE2X" />	<Cell address="C4" content="-025.527" 	alias="PE2Y" />	<Cell address="D4" content="3.000" 	    alias="PE2D" />	<Cell address="E4" content="PE2" />
+<Cell address="A5" content="4)" />	    <Cell address="B5" content="024.511" 	alias="PE3X" />	<Cell address="C5" content="-014.224" 	alias="PE3Y" />	<Cell address="D5" content="3.000" 	    alias="PE3D" />	<Cell address="E5" content="PE3" />
+<Cell address="A6" content="5)" />	    <Cell address="B6" content="021.717" 	alias="PE4X" />	<Cell address="C6" content="-012.573" 	alias="PE4Y" />	<Cell address="D6" content="3.000" 	    alias="PE4D" />	<Cell address="E6" content="PE4" />
+<Cell address="A7" content="6)" />	    <Cell address="B7" content="030.099" 	alias="PE5X" />	<Cell address="C7" content="-015.494" 	alias="PE5Y" />	<Cell address="D7" content="3.000" 	    alias="PE5D" />	<Cell address="E7" content="PE5" />
+<Cell address="A8" content="7)" />	    <Cell address="B8" content="036.957" 	alias="PE6X" />	<Cell address="C8" content="-006.096" 	alias="PE6Y" />	<Cell address="D8" content="3.000" 	    alias="PE6D" />	<Cell address="E8" content="PE6" />
+<Cell address="A9" content="8)" />	    <Cell address="B9" content="019.304" 	alias="PE7X" />	<Cell address="C9" content="-028.448" 	alias="PE7Y" />	<Cell address="D9" content="3.000" 	    alias="PE7D" />	<Cell address="E19" content="PE7" />
+<Cell address="A10" content="9)" />	    <Cell address="B10" content="014.732" 	alias="PH0X" />	<Cell address="C10" content="-035.433" 	alias="PH0Y" />	<Cell address="D10" content="3.000" 	alias="PH0D" />	<Cell address="E10" content="PH0" />
+<Cell address="A11" content="10)" />	<Cell address="B11" content="014.351" 	alias="PH1X" />	<Cell address="C11" content="-026.162" 	alias="PH1Y" />	<Cell address="D11" content="3.000" 	alias="PH1D" />	<Cell address="E11" content="PH1" />
+<Cell address="A12" content="11)" />	<Cell address="B12" content="004.445" 	alias="PH2X" />	<Cell address="C12" content="-033.020" 	alias="PH2Y" />	<Cell address="D12" content="3.000" 	alias="PH2D" />	<Cell address="E12" content="PH2" />
+<Cell address="A13" content="12)" />	<Cell address="B13" content="000.889" 	alias="PH3X" />	<Cell address="C13" content="-020.320" 	alias="PH3Y" />	<Cell address="D13" content="3.000" 	alias="PH3D" />	<Cell address="E13" content="PH3" />
+<Cell address="A14" content="13)" />	<Cell address="B14" content="-002.667" 	alias="PH4X" />	<Cell address="C14" content="-029.845" 	alias="PH4Y" />	<Cell address="D14" content="3.000" 	alias="PH4D" />	<Cell address="E14" content="PH4" />
+<Cell address="A15" content="14)" />	<Cell address="B15" content="-011.557" 	alias="PH5X" />	<Cell address="C15" content="-018.034" 	alias="PH5Y" />	<Cell address="D15" content="3.000" 	alias="PH5D" />	<Cell address="E15" content="PH5" />
+<Cell address="A16" content="15)" />	<Cell address="B16" content="-005.207" 	alias="PH6X" />	<Cell address="C16" content="-027.686" 	alias="PH6Y" />	<Cell address="D16" content="3.000" 	alias="PH6D" />	<Cell address="E16" content="PH6" />
+<Cell address="A17" content="17)" />	<Cell address="B17" content="-013.462" 	alias="PB0X" />	<Cell address="C17" content="-022.860" 	alias="PB0Y" />	<Cell address="D17" content="3.000" 	alias="PB0D" />	<Cell address="E17" content="PB0" />
+<Cell address="A18" content="18)" />	<Cell address="B18" content="-017.653" 	alias="PB1X" />	<Cell address="C18" content="-022.606" 	alias="PB1Y" />	<Cell address="D18" content="3.000" 	alias="PB1D" />	<Cell address="E18" content="PB1" />
+<Cell address="A19" content="19)" />	<Cell address="B19" content="-021.336" 	alias="PB2X" />	<Cell address="C19" content="-025.273" 	alias="PB2Y" />	<Cell address="D19" content="3.000" 	alias="PB2D" />	<Cell address="E19" content="PB2" />
+<Cell address="A20" content="20)" />	<Cell address="B20" content="-027.178" 	alias="PB3X" />	<Cell address="C20" content="-022.098" 	alias="PB3Y" />	<Cell address="D20" content="3.000" 	alias="PB3D" />	<Cell address="E20" content="PB3" />
+<Cell address="A21" content="21)" />	<Cell address="B21" content="-026.289" 	alias="PB4X" />	<Cell address="C21" content="-017.018" 	alias="PB4Y" />	<Cell address="D21" content="3.000" 	alias="PB4D" />	<Cell address="E21" content="PB4" />
+<Cell address="A22" content="22)" />	<Cell address="B22" content="-024.130" 	alias="PB5X" />	<Cell address="C22" content="-015.113" 	alias="PB5Y" />	<Cell address="D22" content="3.000" 	alias="PB5D" />	<Cell address="E22" content="PB5" />
+<Cell address="A23" content="23)" />	<Cell address="B23" content="-021.463" 	alias="PB6X" />	<Cell address="C23" content="-006.350" 	alias="PB6Y" />	<Cell address="D23" content="3.000" 	alias="PB6D" />	<Cell address="E23" content="PB6" />
+<Cell address="A24" content="16)" />	<Cell address="B24" content="-014.351" 	alias="PH7X" />	<Cell address="C24" content="-026.289" 	alias="PH7Y" />	<Cell address="D24" content="3.000" 	alias="PH7D" />	<Cell address="E24" content="PH7" />
+<Cell address="A25" content="24)" />	<Cell address="B25" content="-038.608" 	alias="PB7X" />	<Cell address="C25" content="-006.223" 	alias="PB7Y" />	<Cell address="D25" content="3.000" 	alias="PB7D" />	<Cell address="E25" content="PB7" />
+<Cell address="A26" content="-)" />	    <Cell address="B26" content="0" 		alias="PG3X" />	<Cell address="C26" content="0" 		alias="PG3Y" />	<Cell address="D26" content="3.000" 	alias="PG3D" />	<Cell address="E26" content="PG3" />
+<Cell address="A27" content="-)" />	    <Cell address="B27" content="0" 		alias="PG4X" />	<Cell address="C27" content="0" 		alias="PG4Y" />	<Cell address="D27" content="3.000" 	alias="PG4D" />	<Cell address="E27" content="PG4" />
+<Cell address="A28" content="-)" />	    <Cell address="B28" content="0" 		alias="PL0X" />	<Cell address="C28" content="0" 		alias="PL0Y" />	<Cell address="D28" content="3.000" 	alias="PL0D" />	<Cell address="E28" content="PL0" />
+<Cell address="A29" content="-)" />	    <Cell address="B29" content="0" 		alias="PL1X" />	<Cell address="C29" content="0" 		alias="PL1Y" />	<Cell address="D29" content="3.000" 	alias="PL1D" />	<Cell address="E29" content="PL1" />
+<Cell address="A30" content="-)" />	    <Cell address="B30" content="0" 		alias="PL2X" />	<Cell address="C30" content="0" 		alias="PL2Y" />	<Cell address="D30" content="3.000" 	alias="PL2D" />	<Cell address="E30" content="PL2" />
+<Cell address="A31" content="-)" />	    <Cell address="B31" content="0" 		alias="PL3X" />	<Cell address="C31" content="0" 		alias="PL3Y" />	<Cell address="D31" content="3.000" 	alias="PL3D" />	<Cell address="E31" content="PL3" />
+<Cell address="A32" content="-)" />	    <Cell address="B32" content="0" 		alias="PL4X" />	<Cell address="C32" content="0" 		alias="PL4Y" />	<Cell address="D32" content="3.000" 	alias="PL4D" />	<Cell address="E32" content="PL4" />
+<Cell address="A33" content="-)" />	    <Cell address="B33" content="0" 		alias="PL5X" />	<Cell address="C33" content="0" 		alias="PL5Y" />	<Cell address="D33" content="3.000" 	alias="PL5D" />	<Cell address="E33" content="PL5" />
+<Cell address="A34" content="-)" />	    <Cell address="B34" content="0" 		alias="PL6X" />	<Cell address="C34" content="0" 		alias="PL6Y" />	<Cell address="D34" content="3.000" 	alias="PL6D" />	<Cell address="E34" content="PL6" />
+<Cell address="A35" content="-)" />	    <Cell address="B35" content="0" 		alias="PL7X" />	<Cell address="C35" content="0" 		alias="PL7Y" />	<Cell address="D35" content="3.000" 	alias="PL7D" />	<Cell address="E35" content="PL7" />
+<Cell address="A36" content="57)" />	<Cell address="B36" content="006.477" 	alias="PD0X" />	<Cell address="C36" content="030.226" 	alias="PD0Y" />	<Cell address="D36" content="3.000" 	alias="PD0D" />	<Cell address="E36" content="PD0" />
+<Cell address="A37" content="58)" />	<Cell address="B37" content="-010.668" 	alias="PD1X" />	<Cell address="C37" content="035.052" 	alias="PD1Y" />	<Cell address="D37" content="3.000" 	alias="PD1D" />	<Cell address="E37" content="PD1" />
+<Cell address="A38" content="59)" />	<Cell address="B38" content="035.052" 	alias="PD2X" />	<Cell address="C38" content="032.766" 	alias="PD2Y" />	<Cell address="D38" content="3.000" 	alias="PD2D" />	<Cell address="E38" content="PD2" />
+<Cell address="A39" content="60)" />	<Cell address="B39" content="009.271" 	alias="PD3X" />	<Cell address="C39" content="030.988" 	alias="PD3Y" />	<Cell address="D39" content="3.000" 	alias="PD3D" />	<Cell address="E39" content="PD3" />
+<Cell address="A40" content="61)" />	<Cell address="B40" content="012.573" 	alias="PD4X" />	<Cell address="C40" content="029.591" 	alias="PD4Y" />	<Cell address="D40" content="3.000" 	alias="PD4D" />	<Cell address="E40" content="PD4" />
+<Cell address="A41" content="62)" />	<Cell address="B41" content="-009.779" 	alias="PD5X" />	<Cell address="C41" content="032.385" 	alias="PD5Y" />	<Cell address="D41" content="3.000" 	alias="PD5D" />	<Cell address="E41" content="PD5" />
+<Cell address="A42" content="63)" />	<Cell address="B42" content="-034.798" 	alias="PD6X" />	<Cell address="C42" content="-010.541" 	alias="PD6Y" />	<Cell address="D42" content="3.000" 	alias="PD6D" />	<Cell address="E42" content="PD6" />
+<Cell address="A43" content="64)" />	<Cell address="B43" content="014.732" 	alias="PD7X" />	<Cell address="C43" content="037.719" 	alias="PD7Y" />	<Cell address="D43" content="3.000" 	alias="PD7D" />	<Cell address="E43" content="PD7" />
+<Cell address="A44" content="-)" /> 	<Cell address="B44" content="0" 		alias="PG0X" />	<Cell address="C44" content="0" 		alias="PG0Y" />	<Cell address="D44" content="3.000" 	alias="PG0D" />	<Cell address="E44" content="PG0" />
+<Cell address="A45" content="-)" /> 	<Cell address="B45" content="0" 		alias="PG1X" />	<Cell address="C45" content="0" 		alias="PG1Y" />	<Cell address="D45" content="3.000" 	alias="PG1D" />	<Cell address="E45" content="PG1" />
+<Cell address="A46" content="49)" />	<Cell address="B46" content="041.402" 	alias="PC0X" />	<Cell address="C46" content="-007.747" 	alias="PC0Y" />	<Cell address="D46" content="3.000" 	alias="PC0D" />	<Cell address="E46" content="PC0" />
+<Cell address="A47" content="50)" />	<Cell address="B47" content="-005.207" 	alias="PC1X" />	<Cell address="C47" content="-017.018" 	alias="PC1Y" />	<Cell address="D47" content="3.000" 	alias="PC1D" />	<Cell address="E47" content="PC1" />
+<Cell address="A48" content="51)" />	<Cell address="B48" content="-009.017" 	alias="PC2X" />	<Cell address="C48" content="-017.272" 	alias="PC2Y" />	<Cell address="D48" content="3.000" 	alias="PC2D" />	<Cell address="E48" content="PC2" />
+<Cell address="A49" content="52)" />	<Cell address="B49" content="008.255" 	alias="PC3X" />	<Cell address="C49" content="-023.241" 	alias="PC3Y" />	<Cell address="D49" content="3.000" 	alias="PC3D" />	<Cell address="E49" content="PC3" />
+<Cell address="A50" content="53)" />	<Cell address="B50" content="005.715" 	alias="PC4X" />	<Cell address="C50" content="-023.241" 	alias="PC4Y" />	<Cell address="D50" content="3.000" 	alias="PC4D" />	<Cell address="E50" content="PC4" />
+<Cell address="A51" content="54)" />	<Cell address="B51" content="040.767" 	alias="PC5X" />	<Cell address="C51" content="000.635" 	alias="PC5Y" />	<Cell address="D51" content="3.000" 	alias="PC5D" />	<Cell address="E51" content="PC5" />
+<Cell address="A52" content="55)" />	<Cell address="B52" content="033.528" 	alias="PC6X" />	<Cell address="C52" content="-011.176" 	alias="PC6Y" />	<Cell address="D52" content="3.000" 	alias="PC6D" />	<Cell address="E52" content="PC6" />
+<Cell address="A53" content="56)" />	<Cell address="B53" content="-032.004" 	alias="PC7X" />	<Cell address="C53" content="034.798" 	alias="PC7Y" />	<Cell address="D53" content="3.000" 	alias="PC7D" />	<Cell address="E53" content="PC7" />
+<Cell address="A54" content="-)" />	    <Cell address="B54" content="0" 		alias="PJ0X" />	<Cell address="C54" content="0" 		alias="PJ0Y" />	<Cell address="D54" content="3.000" 	alias="PJ0D" />	<Cell address="E54" content="PJ0" />
+<Cell address="A55" content="-)" />	    <Cell address="B55" content="0" 		alias="PJ1X" />	<Cell address="C55" content="0" 		alias="PJ1Y" />	<Cell address="D55" content="3.000" 	alias="PJ1D" />	<Cell address="E55" content="PJ1" />
+<Cell address="A56" content="-)" />	    <Cell address="B56" content="0" 		alias="PJ2X" />	<Cell address="C56" content="0" 		alias="PJ2Y" />	<Cell address="D56" content="3.000" 	alias="PJ2D" />	<Cell address="E56" content="PJ2" />
+<Cell address="A57" content="-)" />	    <Cell address="B57" content="0" 		alias="PJ3X" />	<Cell address="C57" content="0" 		alias="PJ3Y" />	<Cell address="D57" content="3.000" 	alias="PJ3D" />	<Cell address="E57" content="PJ3" />
+<Cell address="A58" content="-)" />	    <Cell address="B58" content="0" 		alias="PJ4X" />	<Cell address="C58" content="0" 		alias="PJ4Y" />	<Cell address="D58" content="3.000" 	alias="PJ4D" />	<Cell address="E58" content="PJ4" />
+<Cell address="A59" content="-)" />	    <Cell address="B59" content="0" 		alias="PJ5X" />	<Cell address="C59" content="0" 		alias="PJ5Y" />	<Cell address="D59" content="3.000" 	alias="PJ5D" />	<Cell address="E59" content="PJ5" />
+<Cell address="A60" content="-)" />     <Cell address="B60" content="0" 		alias="PJ6X" />	<Cell address="C60" content="0" 		alias="PJ6Y" />	<Cell address="D60" content="3.000" 	alias="PJ6D" />	<Cell address="E60" content="PJ6" />
+<Cell address="A61" content="41)" />	<Cell address="B61" content="008.001" 	alias="PA0X" />	<Cell address="C61" content="034.798" 	alias="PA0Y" />	<Cell address="D61" content="3.000" 	alias="PA0D" />	<Cell address="E61" content="PA0" />
+<Cell address="A62" content="42)" />	<Cell address="B62" content="022.987" 	alias="PA1X" />	<Cell address="C62" content="039.243" 	alias="PA1Y" />	<Cell address="D62" content="3.000" 	alias="PA1D" />	<Cell address="E62" content="PA1" />
+<Cell address="A63" content="43)" />	<Cell address="B63" content="025.146" 	alias="PA2X" />	<Cell address="C63" content="033.401" 	alias="PA2Y" />	<Cell address="D63" content="3.000" 	alias="PA2D" />	<Cell address="E63" content="PA2" />
+<Cell address="A64" content="44)" />	<Cell address="B64" content="027.051" 	alias="PA3X" />	<Cell address="C64" content="036.195" 	alias="PA3Y" />	<Cell address="D64" content="3.000" 	alias="PA3D" />	<Cell address="E64" content="PA3" />
+<Cell address="A65" content="45)" />	<Cell address="B65" content="029.083" 	alias="PA4X" />	<Cell address="C65" content="026.797" 	alias="PA4Y" />	<Cell address="D65" content="3.000" 	alias="PA4D" />	<Cell address="E65" content="PA4" />
+<Cell address="A66" content="46)" />	<Cell address="B66" content="023.114" 	alias="PA5X" />	<Cell address="C66" content="006.858" 	alias="PA5Y" />	<Cell address="D66" content="3.000" 	alias="PA5D" />	<Cell address="E66" content="PA5" />
+<Cell address="A67" content="47)" />	<Cell address="B67" content="041.402" 	alias="PA6X" />	<Cell address="C67" content="017.653" 	alias="PA6Y" />	<Cell address="D67" content="3.000" 	alias="PA6D" />	<Cell address="E67" content="PA6" />
+<Cell address="A68" content="48)" />	<Cell address="B68" content="018.542" 	alias="PA7X" />	<Cell address="C68" content="029.591" 	alias="PA7Y" />	<Cell address="D68" content="3.000" 	alias="PA7D" />	<Cell address="E68" content="PA7" />
+<Cell address="A69" content="33)" />	<Cell address="B69" content="-035.687" 	alias="PK0X" />	<Cell address="C69" content="007.493" 	alias="PK0Y" />	<Cell address="D69" content="3.000" 	alias="PK0D" />	<Cell address="E69" content="PK0" />
+<Cell address="A70" content="34)" />	<Cell address="B70" content="-030.480" 	alias="PK1X" />	<Cell address="C70" content="003.429" 	alias="PK1Y" />	<Cell address="D70" content="3.000" 	alias="PK1D" />	<Cell address="E70" content="PK1" />
+<Cell address="A71" content="35)" />	<Cell address="B71" content="-019.050" 	alias="PK2X" />	<Cell address="C71" content="045.339" 	alias="PK2Y" />	<Cell address="D71" content="3.000" 	alias="PK2D" />	<Cell address="E71" content="PK2" />
+<Cell address="A72" content="36)" />	<Cell address="B72" content="-003.937" 	alias="PK3X" />	<Cell address="C72" content="045.847" 	alias="PK3Y" />	<Cell address="D72" content="3.000" 	alias="PK3D" />	<Cell address="E72" content="PK3" />
+<Cell address="A73" content="37)" />	<Cell address="B73" content="-002.032" 	alias="PK4X" />	<Cell address="C73" content="041.021" 	alias="PK4Y" />	<Cell address="D73" content="3.000" 	alias="PK4D" />	<Cell address="E73" content="PK4" />
+<Cell address="A74" content="38)" />	<Cell address="B74" content="-010.668" 	alias="PK5X" />	<Cell address="C74" content="022.098" 	alias="PK5Y" />	<Cell address="D74" content="3.000" 	alias="PK5D" />	<Cell address="E74" content="PK5" />
+<Cell address="A75" content="39)" />	<Cell address="B75" content="003.302" 	alias="PK6X" />	<Cell address="C75" content="042.545" 	alias="PK6Y" />	<Cell address="D75" content="3.000" 	alias="PK6D" />	<Cell address="E75" content="PK6" />
+<Cell address="A76" content="40)" />	<Cell address="B76" content="013.335" 	alias="PK7X" />	<Cell address="C76" content="044.450" 	alias="PK7Y" />	<Cell address="D76" content="3.000" 	alias="PK7D" />	<Cell address="E76" content="PK7" />
+<Cell address="A77" content="25)" />	<Cell address="B77" content="-034.798" 	alias="PF0X" />	<Cell address="C77" content="-005.207" 	alias="PF0Y" />	<Cell address="D77" content="3.000" 	alias="PF0D" />	<Cell address="E77" content="PF0" />
+<Cell address="A78" content="26)" />	<Cell address="B78" content="-042.418" 	alias="PF1X" />	<Cell address="C78" content="-001.397" 	alias="PF1Y" />	<Cell address="D78" content="3.000" 	alias="PF1D" />	<Cell address="E78" content="PF1" />
+<Cell address="A79" content="27)" />	<Cell address="B79" content="-029.337" 	alias="PF2X" />	<Cell address="C79" content="008.382" 	alias="PF2Y" />	<Cell address="D79" content="3.000" 	alias="PF2D" />	<Cell address="E79" content="PF2" />
+<Cell address="A80" content="28)" />	<Cell address="B80" content="-026.035" 	alias="PF3X" />	<Cell address="C80" content="008.509" 	alias="PF3Y" />	<Cell address="D80" content="3.000" 	alias="PF3D" />	<Cell address="E80" content="PF3" />
+<Cell address="A81" content="29)" />	<Cell address="B81" content="-034.925" 	alias="PF4X" />	<Cell address="C81" content="014.605" 	alias="PF4Y" />	<Cell address="D81" content="3.000" 	alias="PF4D" />	<Cell address="E81" content="PF4" />
+<Cell address="A82" content="30)" />	<Cell address="B82" content="-032.893" 	alias="PF5X" />	<Cell address="C82" content="018.161" 	alias="PF5Y" />	<Cell address="D82" content="3.000" 	alias="PF5D" />	<Cell address="E82" content="PF5" />
+<Cell address="A83" content="31)" />	<Cell address="B83" content="-028.448" 	alias="PF6X" />	<Cell address="C83" content="024.384" 	alias="PF6Y" />	<Cell address="D83" content="3.000" 	alias="PF6D" />	<Cell address="E83" content="PF6" />
+<Cell address="A84" content="32)" />	<Cell address="B84" content="-022.987" 	alias="PF7X" />	<Cell address="C84" content="032.131" 	alias="PF7Y" />	<Cell address="D84" content="3.000" 	alias="PF7D" />	<Cell address="E84" content="PF7" />
+                    </Cells>
+                </Property>
+                <Property name="columnWidths" type="Spreadsheet::PropertyColumnWidths" status="218103808">
+                    <ColumnInfo Count="0">
+                    </ColumnInfo>
+                </Property>
+                <Property name="rowHeights" type="Spreadsheet::PropertyRowHeights" status="218103808">
+                    <RowInfo Count="0">
+                    </RowInfo>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Sketch" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtension" name="AttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="16" TransientCount="0">
+                <Property name="AttacherType" type="App::PropertyString" status="8">
+                    <String value="Attacher::AttachEnginePlane"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Constraints" type="Sketcher::PropertyConstraintList">
+                    <ConstraintList count="1">
+                        <Constrain Name="" Type="7" Value="11.4299999999999997" First="0" FirstPos="3" Second="-1" SecondPos="1" Third="-2000" ThirdPos="0" LabelDistance="-26.9565219879150391" LabelPosition="-43.8502197265625000" IsDriving="1" IsInVirtualSpace="0" IsActive="1" />
+                    </ConstraintList>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="1">
+                        <Expression path="Constraints[0]" expression="Spreadsheet.PE0X"/>
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ExternalGeometry" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="FullyConstrained" type="App::PropertyBool" status="218103808">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Geometry" type="Part::PropertyGeometryList" status="8192">
+                    <GeometryList count="1">
+                        <Geometry  type="Part::GeomCircle">
+                            <GeoExtensions count="1">
+                                <GeoExtension type="Sketcher::SketchGeometryExtension" internalGeometryType="0" geometryModeFlags="00000000000000000000000000000000"/>
+                            </GeoExtensions>
+                            <Circle CenterX="-11.4299999999999997" CenterY="30.3530000000024849" CenterZ="0.0000000000000000" NormalX="0.0000000000000000" NormalY="0.0000000000000000" NormalZ="1.0000000000000000" AngleXU="-0.0000000000000000" Radius="8.9215713286969791"/>
+                        </Geometry>
+                    </GeometryList>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Sketch"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="649">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
     </ObjectData>
 </Document>
